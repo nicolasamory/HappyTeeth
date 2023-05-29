@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B02CCA862A1F04F40061B908 /* HealthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02CCA852A1F04F40061B908 /* HealthModel.swift */; };
+		B0823E502A1CD6D80078A029 /* Happy_TeethApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0823E4F2A1CD6D80078A029 /* Happy_TeethApp.swift */; };
+		B0823E522A1CD6D80078A029 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0823E512A1CD6D80078A029 /* ContentView.swift */; };
+		B0823E542A1CD6D90078A029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0823E532A1CD6D90078A029 /* Assets.xcassets */; };
+		B0823E572A1CD6D90078A029 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0823E562A1CD6D90078A029 /* Preview Assets.xcassets */; };
+		B0823E5E2A1CD8330078A029 /* FirstStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0823E5D2A1CD8330078A029 /* FirstStepView.swift */; };
+		B0823E602A1CF2A70078A029 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0823E5F2A1CF2A70078A029 /* BackgroundView.swift */; };
+		B08A93532A1DF6DA00A21119 /* Second Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B08A93522A1DF6DA00A21119 /* Second Step.mp3 */; };
+		B08A93552A1DFA0900A21119 /* Third Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B08A93542A1DFA0900A21119 /* Third Step.mp3 */; };
+		B09E810A2A1CF99800EDEECB /* SecondStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E81092A1CF99800EDEECB /* SecondStepView.swift */; };
+		B09E810C2A1CFA2F00EDEECB /* ThirdStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E810B2A1CFA2F00EDEECB /* ThirdStepView.swift */; };
+		B09E810E2A1CFC4500EDEECB /* FourthStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E810D2A1CFC4500EDEECB /* FourthStepView.swift */; };
+		B0AFA4372A1DAC460041F2FC /* FifthStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AFA4362A1DAC460041F2FC /* FifthStepView.swift */; };
+		B0AFA4392A1DAC570041F2FC /* SixthStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AFA4382A1DAC570041F2FC /* SixthStepView.swift */; };
+		B0AFA43B2A1DAC680041F2FC /* SeventhStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AFA43A2A1DAC680041F2FC /* SeventhStepView.swift */; };
+		B0BEB0852A1DBEFC00C6AC19 /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0BEB0842A1DBEFC00C6AC19 /* AchievementView.swift */; };
+		B0DEA68D2A1E13D6005FF6C3 /* First Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0DEA68C2A1E13D6005FF6C3 /* First Step.mp3 */; };
+		B0DEA68F2A1E1574005FF6C3 /* Fourth Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0DEA68E2A1E1574005FF6C3 /* Fourth Step.mp3 */; };
+		B0DEA6912A1E163F005FF6C3 /* Fifth Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0DEA6902A1E163F005FF6C3 /* Fifth Step.mp3 */; };
+		B0DEA6932A1E1668005FF6C3 /* Sixth Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0DEA6922A1E1668005FF6C3 /* Sixth Step.mp3 */; };
+		B0DEA6952A1E17D8005FF6C3 /* Seventh Step.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0DEA6942A1E17D8005FF6C3 /* Seventh Step.mp3 */; };
+		B0DEA6972A1E1A50005FF6C3 /* Great Job.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B0DEA6962A1E1A50005FF6C3 /* Great Job.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B02CCA832A1F041F0061B908 /* Happy Teeth.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Happy Teeth.entitlements"; sourceTree = "<group>"; };
+		B02CCA842A1F04510061B908 /* Happy-Teeth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Happy-Teeth-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B02CCA852A1F04F40061B908 /* HealthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthModel.swift; sourceTree = "<group>"; };
+		B0823E4C2A1CD6D80078A029 /* Happy Teeth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Teeth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0823E4F2A1CD6D80078A029 /* Happy_TeethApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Happy_TeethApp.swift; sourceTree = "<group>"; };
+		B0823E512A1CD6D80078A029 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0823E532A1CD6D90078A029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0823E562A1CD6D90078A029 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B0823E5D2A1CD8330078A029 /* FirstStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstStepView.swift; sourceTree = "<group>"; };
+		B0823E5F2A1CF2A70078A029 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		B08A93522A1DF6DA00A21119 /* Second Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Second Step.mp3"; path = "../../../../../Downloads/Second Step.mp3"; sourceTree = "<group>"; };
+		B08A93542A1DFA0900A21119 /* Third Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Third Step.mp3"; path = "../../../../../Downloads/Third Step.mp3"; sourceTree = "<group>"; };
+		B09E81092A1CF99800EDEECB /* SecondStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStepView.swift; sourceTree = "<group>"; };
+		B09E810B2A1CFA2F00EDEECB /* ThirdStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStepView.swift; sourceTree = "<group>"; };
+		B09E810D2A1CFC4500EDEECB /* FourthStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthStepView.swift; sourceTree = "<group>"; };
+		B0AFA4362A1DAC460041F2FC /* FifthStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthStepView.swift; sourceTree = "<group>"; };
+		B0AFA4382A1DAC570041F2FC /* SixthStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthStepView.swift; sourceTree = "<group>"; };
+		B0AFA43A2A1DAC680041F2FC /* SeventhStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhStepView.swift; sourceTree = "<group>"; };
+		B0BEB0842A1DBEFC00C6AC19 /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		B0DEA68C2A1E13D6005FF6C3 /* First Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "First Step.mp3"; path = "../../../../../Downloads/First Step.mp3"; sourceTree = "<group>"; };
+		B0DEA68E2A1E1574005FF6C3 /* Fourth Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Fourth Step.mp3"; path = "../../../../../Downloads/Fourth Step.mp3"; sourceTree = "<group>"; };
+		B0DEA6902A1E163F005FF6C3 /* Fifth Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Fifth Step.mp3"; path = "../../../../../Downloads/Fifth Step.mp3"; sourceTree = "<group>"; };
+		B0DEA6922A1E1668005FF6C3 /* Sixth Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Sixth Step.mp3"; path = "../../../../../Downloads/Sixth Step.mp3"; sourceTree = "<group>"; };
+		B0DEA6942A1E17D8005FF6C3 /* Seventh Step.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Seventh Step.mp3"; path = "../../../../../Downloads/Seventh Step.mp3"; sourceTree = "<group>"; };
+		B0DEA6962A1E1A50005FF6C3 /* Great Job.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Great Job.mp3"; path = "../../../../../Downloads/Great Job.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0823E492A1CD6D80078A029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0823E432A1CD6D80078A029 = {
+			isa = PBXGroup;
+			children = (
+				B0823E4E2A1CD6D80078A029 /* Happy Teeth */,
+				B0823E4D2A1CD6D80078A029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0823E4D2A1CD6D80078A029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0823E4C2A1CD6D80078A029 /* Happy Teeth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0823E4E2A1CD6D80078A029 /* Happy Teeth */ = {
+			isa = PBXGroup;
+			children = (
+				B02CCA842A1F04510061B908 /* Happy-Teeth-Info.plist */,
+				B02CCA832A1F041F0061B908 /* Happy Teeth.entitlements */,
+				B0823E4F2A1CD6D80078A029 /* Happy_TeethApp.swift */,
+				B02CCA852A1F04F40061B908 /* HealthModel.swift */,
+				B0823E512A1CD6D80078A029 /* ContentView.swift */,
+				B0823E5D2A1CD8330078A029 /* FirstStepView.swift */,
+				B09E81092A1CF99800EDEECB /* SecondStepView.swift */,
+				B09E810B2A1CFA2F00EDEECB /* ThirdStepView.swift */,
+				B09E810D2A1CFC4500EDEECB /* FourthStepView.swift */,
+				B0AFA4362A1DAC460041F2FC /* FifthStepView.swift */,
+				B0AFA4382A1DAC570041F2FC /* SixthStepView.swift */,
+				B0AFA43A2A1DAC680041F2FC /* SeventhStepView.swift */,
+				B0BEB0842A1DBEFC00C6AC19 /* AchievementView.swift */,
+				B0823E532A1CD6D90078A029 /* Assets.xcassets */,
+				B08A934D2A1DF54900A21119 /* New Group */,
+				B0823E552A1CD6D90078A029 /* Preview Content */,
+				B0823E5F2A1CF2A70078A029 /* BackgroundView.swift */,
+			);
+			path = "Happy Teeth";
+			sourceTree = "<group>";
+		};
+		B0823E552A1CD6D90078A029 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B0823E562A1CD6D90078A029 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B08A934D2A1DF54900A21119 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B0DEA68C2A1E13D6005FF6C3 /* First Step.mp3 */,
+				B08A93522A1DF6DA00A21119 /* Second Step.mp3 */,
+				B08A93542A1DFA0900A21119 /* Third Step.mp3 */,
+				B0DEA68E2A1E1574005FF6C3 /* Fourth Step.mp3 */,
+				B0DEA6902A1E163F005FF6C3 /* Fifth Step.mp3 */,
+				B0DEA6922A1E1668005FF6C3 /* Sixth Step.mp3 */,
+				B0DEA6942A1E17D8005FF6C3 /* Seventh Step.mp3 */,
+				B0DEA6962A1E1A50005FF6C3 /* Great Job.mp3 */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0823E4B2A1CD6D80078A029 /* Happy Teeth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0823E5A2A1CD6D90078A029 /* Build configuration list for PBXNativeTarget "Happy Teeth" */;
+			buildPhases = (
+				B0823E482A1CD6D80078A029 /* Sources */,
+				B0823E492A1CD6D80078A029 /* Frameworks */,
+				B0823E4A2A1CD6D80078A029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Teeth";
+			productName = "Happy Teeth";
+			productReference = B0823E4C2A1CD6D80078A029 /* Happy Teeth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0823E442A1CD6D80078A029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B0823E4B2A1CD6D80078A029 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B0823E472A1CD6D80078A029 /* Build configuration list for PBXProject "Happy Teeth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0823E432A1CD6D80078A029;
+			productRefGroup = B0823E4D2A1CD6D80078A029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0823E4B2A1CD6D80078A029 /* Happy Teeth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0823E4A2A1CD6D80078A029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DEA6932A1E1668005FF6C3 /* Sixth Step.mp3 in Resources */,
+				B0DEA6912A1E163F005FF6C3 /* Fifth Step.mp3 in Resources */,
+				B0DEA6952A1E17D8005FF6C3 /* Seventh Step.mp3 in Resources */,
+				B0DEA6972A1E1A50005FF6C3 /* Great Job.mp3 in Resources */,
+				B0823E572A1CD6D90078A029 /* Preview Assets.xcassets in Resources */,
+				B0823E542A1CD6D90078A029 /* Assets.xcassets in Resources */,
+				B0DEA68D2A1E13D6005FF6C3 /* First Step.mp3 in Resources */,
+				B08A93532A1DF6DA00A21119 /* Second Step.mp3 in Resources */,
+				B08A93552A1DFA0900A21119 /* Third Step.mp3 in Resources */,
+				B0DEA68F2A1E1574005FF6C3 /* Fourth Step.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0823E482A1CD6D80078A029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B09E810C2A1CFA2F00EDEECB /* ThirdStepView.swift in Sources */,
+				B0823E522A1CD6D80078A029 /* ContentView.swift in Sources */,
+				B0AFA43B2A1DAC680041F2FC /* SeventhStepView.swift in Sources */,
+				B0823E5E2A1CD8330078A029 /* FirstStepView.swift in Sources */,
+				B0BEB0852A1DBEFC00C6AC19 /* AchievementView.swift in Sources */,
+				B0AFA4392A1DAC570041F2FC /* SixthStepView.swift in Sources */,
+				B0823E602A1CF2A70078A029 /* BackgroundView.swift in Sources */,
+				B02CCA862A1F04F40061B908 /* HealthModel.swift in Sources */,
+				B0823E502A1CD6D80078A029 /* Happy_TeethApp.swift in Sources */,
+				B09E810A2A1CF99800EDEECB /* SecondStepView.swift in Sources */,
+				B0AFA4372A1DAC460041F2FC /* FifthStepView.swift in Sources */,
+				B09E810E2A1CFC4500EDEECB /* FourthStepView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B0823E582A1CD6D90078A029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0823E592A1CD6D90078A029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0823E5B2A1CD6D90078A029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Happy Teeth/Happy Teeth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Happy Teeth/Preview Content\"";
+				DEVELOPMENT_TEAM = CB4AJMRMY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Happy-Teeth-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "H2K-N2.Happy-Teeth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0823E5C2A1CD6D90078A029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Happy Teeth/Happy Teeth.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Happy Teeth/Preview Content\"";
+				DEVELOPMENT_TEAM = CB4AJMRMY3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Happy-Teeth-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "H2K-N2.Happy-Teeth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0823E472A1CD6D80078A029 /* Build configuration list for PBXProject "Happy Teeth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0823E582A1CD6D90078A029 /* Debug */,
+				B0823E592A1CD6D90078A029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0823E5A2A1CD6D90078A029 /* Build configuration list for PBXNativeTarget "Happy Teeth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0823E5B2A1CD6D90078A029 /* Debug */,
+				B0823E5C2A1CD6D90078A029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0823E442A1CD6D80078A029 /* Project object */;
+}
